@@ -1,0 +1,498 @@
+#mei{
+	a{
+		color:black;
+	}
+	h2{
+		color:black;
+		font-size:26px;
+		font-weight:normal;
+	}
+	h3{
+		color:black;
+		text-align:right;
+		span{
+			padding-right:16px;
+			background: url(../img/youjiantou.png) no-repeat 50px;
+			height:50px;
+			line-height:50px;
+		}
+		
+	}
+	font-family:'微软雅黑';
+	min-width:1000px;
+	.header{
+		.top{
+		background:#f2f2f2;
+		color:black;
+			.container{
+				overflow:hidden;		
+				>ul:first-of-type{
+					background: url(../img/zhuceyouli.gif) -2px 4px no-repeat;
+					float:left;
+					li:last-of-type a{
+						padding-left:20px;
+					}
+					>li{
+						float:left;
+						a{						
+							display:block;
+							height:30px;
+							line-height:30px;
+													
+							span{
+								border-right:2px solid black;
+								padding:0 20px
+							}
+						}
+					}				
+				}
+				ul:last-of-type{
+					margin-right:80px;
+					float:right;
+					li:last-of-type a{
+						padding-left:20px;					
+							background: url(../img/weibo.png) 20px 2px no-repeat;
+							span{
+								border-right:none;
+							}
+							
+						}
+					li{
+						float:left;
+						a{						
+							display:block;
+							height:30px;
+							line-height:30px;												
+							span{
+								border-right:2px solid black;
+								padding:0 20px
+							}
+						}
+					}			
+				}
+			}
+		}
+		.logo{
+			background:white;			
+			.container{
+				height:90px;	
+				position:relative;
+				#search{
+					display:none;
+					position:absolute;
+					width: 350px;
+					border:1px solid black;
+					right:42px;
+					top: 76px;
+					z-index:1000;
+					background:white;
+					li{
+						text-indent:12px;
+						color:black;
+						font-size:14px;
+						height: 37px;
+						line-height:37px;
+					}
+				}
+				
+				.pic1{
+					background: url(../img/jingling.png) 192px 300px;
+					width:192px;
+					height:90px;
+					float:left;
+				}
+				.pic2{
+					background: url(../img/jingling.png) 174px -70px;
+					width:174px;
+					height:90px;
+					float:left;
+				}
+				input:first-of-type{
+					border:1px solid black;
+					margin-top:40px;
+					margin-left:240px;
+					float:left;
+					width: 350px;
+					height: 35px;
+					text-indent:12px;
+				}
+				input:last-of-type{
+					margin-top:40px;
+					float:left;
+					width: 37px;
+					height: 37px;
+					border:1px solid black;
+					background:black url(../img/fangdajing.png) 2px 6px no-repeat;
+				}								
+			}
+		}
+		.navigation{
+			background:black;
+			.container{
+				height:40px;
+				>ul:first-of-type{
+					float:left;
+					>li{
+						float:left;
+						position:relative;
+						
+						&:hover .list{
+							display:block;
+						}
+						>a{
+							display:block;
+							height:40px;
+							width:80px;
+							line-height:40px;
+							color:white;
+							font-size:14px;
+						&:hover{
+							color:red;
+						}	
+
+						}
+						.list{
+							display:none;
+							position:absolute;
+							border-shadow:2px 2px 2px #ccc;
+							border:1px solid #ccc;
+							top:40px;
+							left: 0px;
+							width:460px;
+							padding:12px;
+							background:white;
+							color:#666;
+							h4{
+								font-weight:bolder;
+								color:red;
+								padding-bottom:10px;
+								border-bottom:1px solid #ccc;
+							}
+							a{
+								color:black;
+							}
+							.left{
+								font-size:16px;
+								display:inline-block;
+								width: 320px;
+								height: 220px;
+								li{
+									margin-top:10px;
+								}
+							}
+							.right{
+								font-size:14px;
+								text-align:center;
+								margin-left:12px;
+								width:98px;
+								display:inline-block;
+								
+							}
+						}
+					}
+				}
+				>ul:last-of-type{
+					margin-right:20px;
+					float:right;
+					>li{
+						float:left;
+						a{
+							display:block;
+							height:39px;
+							line-height:39px;
+						}
+					}
+					li:nth-of-type(2){
+						span{
+							border-right:1px solid white;
+						}
+					}
+					li:nth-of-type(3){
+						a{
+							color:white;
+							padding-left:10px;
+							span{							
+								font-size:14px;
+								padding-left:2px;
+							}
+						}
+						
+					}
+				}
+			}
+		}
+	}
+	.main{
+		.container{
+			overflow:hidden;
+			h3{
+				text-align:left;
+				color:#ccc;
+			}
+			.pic{
+				float:left;
+				width:50%;
+				height:800px;
+				background:url(../img/goodlist/1.jpg);
+			}
+			.detail{
+
+				float:left;
+				margin-left:20px;
+				width: 468px;
+				.brand{
+					margin-top:20px;
+					height: 34px;
+					line-height:34px;
+					font-weight:bolder;
+					font-size:26px;
+					color:black;
+				}
+				.name{
+					font-size:20px;
+				}
+				.price{
+					
+					font-size:26px;
+					color:#db2828;
+				}
+				.discount{
+					font-size:26px;
+					float:right;
+					color:#db2828;
+				}
+				.present{
+					margin-top:20px;
+					background:#eee url(../img/present.png) no-repeat;
+					text-indent:60px;
+					height: 40px;
+					line-height:40px;
+					font-size:16px;
+					color:black;
+
+				}
+				.color{
+					margin-top:20px;
+					font-size:16px;
+					color:#ccc;
+
+					span{
+						font-size:16px;
+						color:black;
+					}
+				}
+				.smallcolor{
+					width: 60px;
+					height: 100px;
+					border:1px solid #eee;
+					margin:20px 0;
+
+				}
+				.size{
+					font-size:16px;
+					margin-bottom:30px;
+					span{
+						width: 80px;
+						height: 80px;
+						padding:6px 20px;
+						background:#ccc;
+						color:black;
+
+						&:hover{
+							background:black;
+							color:white;
+						}
+					}
+				}
+				.qty{
+					margin-bottom:30px;
+					span{
+						padding:6px 14px;
+						color:black;
+						font-size:16px;
+
+					}
+
+					.jian,.jia{
+						background:#ccc;
+						color:black;
+					}
+					.jian{
+						padding:6px 16px;
+					}
+				}
+				.zhifa{
+					color:red;
+					font-size:20px;
+				}
+				u{
+					float:right;
+				}
+			}
+			.buy{
+				margin:30px 0;
+				input{
+					width: 220px;
+					height: 46px;
+				}
+				#buycar{
+					background:#222;
+					color:white;
+					margin-right:22px;
+				}
+				#buy{
+					background:#db2828;
+					color:white;
+				}
+			}
+			.line{border-bottom:1px solid #ccc;height:1px;
+				overflow:hidden;margin-top:840px;}
+			>img:nth-of-type(5){
+				margin-left:20px;
+				margin-top:40px;
+			}
+
+			>img:nth-of-type(4){
+				margin-left:20px;
+				margin-top:40px;
+
+			}
+			>img:nth-of-type(3){
+				margin-left:24px;
+				margin-top:60px;
+
+			}
+			>img:nth-of-type(2){
+				margin-left:20px;
+				margin-top:30px;
+
+			}
+			>img:nth-of-type(1){
+				margin-left:26px;
+				margin-top:40px;
+
+			}
+			>img:last-of-type{
+				margin-top:20px;
+
+				display:block;
+				margin:20px auto;
+			}
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+	.bottom{
+		background: #f2f2f2;
+		padding-top: 30px;
+		padding-bottom: 20px;
+		ul:first-of-type{
+			text-align:center;
+			width: 990px;
+			margin: 0 auto;
+			overflow: hidden;
+			li{
+				float: left;
+				a{
+					display: block;
+					width: 164px;
+					color:black;
+					border-right:1px solid black;
+					height:60px;
+					line-height:30px;
+					font-size:12px;
+
+				}
+			}
+			li:nth-of-type(1){
+				a{
+					background: url(../img/jingling.png) -152px -148px no-repeat;
+				}
+				:hover{
+					background: url(../img/jingling.png) -152px -266px no-repeat;
+				}
+			}
+			li:nth-of-type(2){
+				a{
+					background: url(../img/jingling.png) -543px -104px no-repeat;
+				}
+				:hover{
+					background: url(../img/jingling.png) -543px 7px no-repeat;
+				}
+			}
+			li:nth-of-type(3){
+				a{
+					background: url(../img/jingling.png) -152px -386px no-repeat;
+				}
+				:hover{
+					background: url(../img/jingling.png) -303px -233px no-repeat;
+				}
+			}
+			li:nth-of-type(4){
+				a{
+					background: url(../img/jingling.png) -416px 6px no-repeat;
+				}
+				:hover{
+					background: url(../img/jingling.png) -416px -106px no-repeat;
+				}
+			}
+			li:nth-of-type(5){
+				a{
+					background: url(../img/jingling.png) -302px -346px no-repeat;
+				}
+				:hover{
+					background: url(../img/jingling.png) -302px -459px no-repeat;
+				}
+			}
+			li:last-of-type{
+				a{
+					background: url(../img/jingling.png) -300px -114px no-repeat;
+					border-right:none;
+				}
+				:hover{
+					background: url(../img/jingling.png) -300px 3px no-repeat;
+					border-right:none;
+				}
+			}
+		}
+		ul:last-of-type{
+			overflow:hidden;
+			margin:20px auto;
+			text-align:center;
+			width:540px;
+			li{
+				float:left;
+				a{
+					display:block;
+					height:14px;
+					line-height:14px;
+					span{
+						padding: 0 27px;
+						color:black;
+					}
+				}
+				:last-of-type{
+					padding-right:0;
+				}
+
+			}
+		
+		}
+		p{
+			margin-bottom: 20px;
+			text-align:center;
+		}
+		img{
+			display:block;
+			margin: 4px auto 2px;
+		}
+	}
+}

@@ -1,0 +1,381 @@
+@charset "UTF-8";
+#mei .header .container {
+  overflow: hidden;
+}
+
+#mei .header .container .pic1 {
+  background: url(../img/jingling.png) 192px 300px;
+  width: 192px;
+  height: 90px;
+  float: left;
+}
+
+#mei .header .container .pic2 {
+  background: url(../img/jingling.png) 174px -70px;
+  width: 174px;
+  height: 90px;
+  float: left;
+}
+
+#mei .banner {
+  height: 800px;
+  font-family: '微软雅黑';
+  color: black;
+  min-widht: 1000px;
+  background: url(../img/resgite.jpg) -280px 0px no-repeat;
+  background-size: auto 800px;
+  position: relative;
+}
+
+#mei .banner .form1 {
+  position: absolute;
+  top: 60px;
+  right: 212px;
+  width: 350px;
+  background: white;
+  padding: 25px;
+  box-sizing: border-box;
+}
+
+#mei .banner .form1 .entry {
+  overflow: hidden;
+}
+
+#mei .banner .form1 .entry > input:first-of-type {
+  width: 175px;
+  height: 50px;
+  border-top: 3px solid #dd2828;
+  background: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#mei .banner .form1 .entry > input:last-of-type {
+  width: 175px;
+  height: 50px;
+  border-top: 3px solid #eee;
+  background: #eee;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#mei .banner .form1 #phone1 {
+  width: 300px;
+  height: 44px;
+  margin-top: 50px;
+  border: 1px solid #ccc;
+  text-indent: 4px;
+}
+
+#mei .banner .form1 #tip {
+  margin-top: 4px;
+  height: 0;
+  overflow: hidden;
+  color: #db2828;
+}
+
+#mei .banner .form1 p:nth-of-type(3) {
+  height: 0;
+  overflow: hidden;
+  color: #db2828;
+  text-align: left;
+}
+
+#mei .banner .form1 p:nth-of-type(4) {
+  height: 0;
+  overflow: hidden;
+  color: #db2828;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+#mei .banner .form1 #yanzhengma {
+  width: 190px;
+  height: 44px;
+  margin-top: 14px;
+  border: 1px solid #ccc;
+  text-indent: 4px;
+  margin-right: 10px;
+}
+
+#mei .banner .form1 #getYanzhengma {
+  width: 94px;
+  height: 48px;
+  margin-top: 14px;
+  border: 1px solid #ccc;
+  text-indent: 4px;
+  background: #db2828;
+  color: white;
+}
+
+#mei .banner .form1 #tubiao {
+  margin-left: -6px;
+  margin-top: 16px;
+}
+
+#mei .banner .form1 span a {
+  color: black;
+}
+
+#mei .banner .form1 #entry1 {
+  width: 300px;
+  height: 48px;
+  font-size: 16px;
+  text-indent: 4px;
+  margin-right: 10px;
+  margin-top: 18px;
+  background: black;
+  color: white;
+}
+
+#mei .banner .form1 .other {
+  margin-top: 20px;
+}
+
+#mei .banner .form1 p:last-of-type {
+  text-align: right;
+  margin-top: 14px;
+}
+
+#mei .banner .form1 p:last-of-type a {
+  background: url(../img/youjiantou.png) 48px no-repeat;
+  color: red;
+  padding-right: 10px;
+}
+
+#mei .banner .form2 {
+  display: none;
+  position: absolute;
+  top: 60px;
+  right: 212px;
+  width: 350px;
+  background: white;
+  padding: 25px;
+  box-sizing: border-box;
+}
+
+#mei .banner .form2 .entry {
+  overflow: hidden;
+}
+
+#mei .banner .form2 .entry > input:first-of-type {
+  width: 175px;
+  height: 50px;
+  border-top: 3px solid #eee;
+  background: #eee;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#mei .banner .form2 .entry > input:last-of-type {
+  width: 175px;
+  height: 50px;
+  border-top: 3px solid #dd2828;
+  background: white;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#mei .banner .form2 #phone2 {
+  width: 300px;
+  height: 44px;
+  margin-top: 50px;
+  border: 1px solid #ccc;
+  text-indent: 4px;
+}
+
+#mei .banner .form2 #tip {
+  margin-top: 4px;
+  height: 0;
+  overflow: hidden;
+  color: #db2828;
+}
+
+#mei .banner .form2 p:nth-of-type(3) {
+  height: 0;
+  overflow: hidden;
+  color: #db2828;
+  text-align: left;
+}
+
+#mei .banner .form2 p:nth-of-type(4) {
+  height: 0;
+  overflow: hidden;
+  color: #db2828;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+#mei .banner .form2 #psw {
+  width: 300px;
+  height: 44px;
+  margin-top: 14px;
+  border: 1px solid #ccc;
+  text-indent: 4px;
+  margin-right: 10px;
+}
+
+#mei .banner .form2 #tubiao {
+  margin-left: -6px;
+  margin-top: 14px;
+}
+
+#mei .banner .form2 span a {
+  color: black;
+}
+
+#mei .banner .form2 #entry2 {
+  width: 302px;
+  height: 48px;
+  font-size: 16px;
+  text-indent: 4px;
+  margin-right: 10px;
+  margin-top: 18px;
+  background: black;
+  color: white;
+}
+
+#mei .banner .form2 .auto {
+  margin-top: 26px;
+}
+
+#mei .banner .form2 .auto input {
+  background: black;
+}
+
+#mei .banner .form2 .auto a {
+  float: right;
+  color: black;
+}
+
+#mei .banner .form2 .other {
+  margin-top: 20px;
+}
+
+#mei .banner .form2 p:last-of-type {
+  text-align: right;
+  margin-top: 14px;
+}
+
+#mei .banner .form2 p:last-of-type a {
+  background: url(../img/youjiantou.png) 48px no-repeat;
+  color: red;
+  padding-right: 10px;
+}
+
+.bottom {
+  background: #f2f2f2;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.bottom ul:first-of-type {
+  text-align: center;
+  width: 990px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.bottom ul:first-of-type li {
+  float: left;
+}
+
+.bottom ul:first-of-type li a {
+  display: block;
+  width: 164px;
+  color: black;
+  border-right: 1px solid black;
+  height: 60px;
+  line-height: 30px;
+  font-size: 12px;
+}
+
+.bottom ul:first-of-type li:nth-of-type(1) a {
+  background: url(../img/jingling.png) -152px -148px no-repeat;
+}
+
+.bottom ul:first-of-type li:nth-of-type(1) :hover {
+  background: url(../img/jingling.png) -152px -266px no-repeat;
+}
+
+.bottom ul:first-of-type li:nth-of-type(2) a {
+  background: url(../img/jingling.png) -543px -104px no-repeat;
+}
+
+.bottom ul:first-of-type li:nth-of-type(2) :hover {
+  background: url(../img/jingling.png) -543px 7px no-repeat;
+}
+
+.bottom ul:first-of-type li:nth-of-type(3) a {
+  background: url(../img/jingling.png) -152px -386px no-repeat;
+}
+
+.bottom ul:first-of-type li:nth-of-type(3) :hover {
+  background: url(../img/jingling.png) -303px -233px no-repeat;
+}
+
+.bottom ul:first-of-type li:nth-of-type(4) a {
+  background: url(../img/jingling.png) -416px 6px no-repeat;
+}
+
+.bottom ul:first-of-type li:nth-of-type(4) :hover {
+  background: url(../img/jingling.png) -416px -106px no-repeat;
+}
+
+.bottom ul:first-of-type li:nth-of-type(5) a {
+  background: url(../img/jingling.png) -302px -346px no-repeat;
+}
+
+.bottom ul:first-of-type li:nth-of-type(5) :hover {
+  background: url(../img/jingling.png) -302px -459px no-repeat;
+}
+
+.bottom ul:first-of-type li:last-of-type a {
+  background: url(../img/jingling.png) -300px -114px no-repeat;
+  border-right: none;
+}
+
+.bottom ul:first-of-type li:last-of-type :hover {
+  background: url(../img/jingling.png) -300px 3px no-repeat;
+  border-right: none;
+}
+
+.bottom ul:last-of-type {
+  overflow: hidden;
+  margin: 20px auto;
+  text-align: center;
+  width: 540px;
+}
+
+.bottom ul:last-of-type li {
+  float: left;
+}
+
+.bottom ul:last-of-type li a {
+  display: block;
+  height: 14px;
+  line-height: 14px;
+}
+
+.bottom ul:last-of-type li a span {
+  padding: 0 27px;
+  color: black;
+}
+
+.bottom ul:last-of-type li :last-of-type {
+  padding-right: 0;
+}
+
+.bottom p {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.bottom img {
+  display: block;
+  margin: 4px auto 2px;
+}

@@ -1,0 +1,846 @@
+@charset "UTF-8";
+#mei {
+  font-family: '微软雅黑';
+  min-width: 1000px;
+}
+
+#mei a {
+  color: black;
+}
+
+#mei h2 {
+  color: black;
+  font-size: 26px;
+  font-weight: normal;
+}
+
+#mei h3 {
+  color: black;
+  text-align: right;
+}
+
+#mei h3 span {
+  padding-right: 16px;
+  background: url(../img/youjiantou.png) no-repeat 50px;
+  height: 50px;
+  line-height: 50px;
+}
+
+#mei .header {
+  position: relative;
+  z-index: 100;
+}
+
+#mei .header .top {
+  background: #f2f2f2;
+  color: black;
+}
+
+#mei .header .top .container {
+  overflow: hidden;
+}
+
+#mei .header .top .container > ul:first-of-type {
+  background: url(../img/zhuceyouli.gif) -2px 4px no-repeat;
+  float: left;
+}
+
+#mei .header .top .container > ul:first-of-type li:last-of-type a {
+  padding-left: 20px;
+}
+
+#mei .header .top .container > ul:first-of-type > li {
+  float: left;
+}
+
+#mei .header .top .container > ul:first-of-type > li a {
+  display: block;
+  height: 30px;
+  line-height: 30px;
+}
+
+#mei .header .top .container > ul:first-of-type > li a span {
+  border-right: 2px solid black;
+  padding: 0 20px;
+}
+
+#mei .header .top .container ul:last-of-type {
+  margin-right: 80px;
+  float: right;
+}
+
+#mei .header .top .container ul:last-of-type li:last-of-type a {
+  padding-left: 20px;
+  background: url(../img/weibo.png) 20px 2px no-repeat;
+}
+
+#mei .header .top .container ul:last-of-type li:last-of-type a span {
+  border-right: none;
+}
+
+#mei .header .top .container ul:last-of-type li {
+  float: left;
+}
+
+#mei .header .top .container ul:last-of-type li a {
+  display: block;
+  height: 30px;
+  line-height: 30px;
+}
+
+#mei .header .top .container ul:last-of-type li a span {
+  border-right: 2px solid black;
+  padding: 0 20px;
+}
+
+#mei .header .logo {
+  background: white;
+}
+
+#mei .header .logo .container {
+  height: 90px;
+  position: relative;
+}
+
+#mei .header .logo .container #search {
+  display: none;
+  position: absolute;
+  width: 350px;
+  border: 1px solid black;
+  right: 42px;
+  top: 76px;
+  z-index: 1000;
+  background: white;
+}
+
+#mei .header .logo .container #search li {
+  text-indent: 12px;
+  color: black;
+  font-size: 14px;
+  height: 37px;
+  line-height: 37px;
+}
+
+#mei .header .logo .container .pic1 {
+  background: url(../img/jingling.png) 192px 300px;
+  width: 192px;
+  height: 90px;
+  float: left;
+}
+
+#mei .header .logo .container .pic2 {
+  background: url(../img/jingling.png) 174px -70px;
+  width: 174px;
+  height: 90px;
+  float: left;
+}
+
+#mei .header .logo .container input:first-of-type {
+  border: 1px solid black;
+  margin-top: 40px;
+  margin-left: 240px;
+  float: left;
+  width: 350px;
+  height: 35px;
+  text-indent: 12px;
+}
+
+#mei .header .logo .container input:last-of-type {
+  margin-top: 40px;
+  float: left;
+  width: 37px;
+  height: 37px;
+  border: 1px solid black;
+  background: black url(../img/fangdajing.png) 2px 6px no-repeat;
+}
+
+#mei .header .navigation {
+  background: black;
+}
+
+#mei .header .navigation .container {
+  height: 40px;
+}
+
+#mei .header .navigation .container > ul:first-of-type {
+  float: left;
+}
+
+#mei .header .navigation .container > ul:first-of-type > li {
+  float: left;
+  position: relative;
+}
+
+#mei .header .navigation .container > ul:first-of-type > li:hover .list {
+  display: block;
+}
+
+#mei .header .navigation .container > ul:first-of-type > li > a {
+  display: block;
+  height: 40px;
+  width: 80px;
+  line-height: 40px;
+  color: white;
+  font-size: 14px;
+}
+
+#mei .header .navigation .container > ul:first-of-type > li > a:hover {
+  color: red;
+}
+
+#mei .header .navigation .container > ul:first-of-type > li .list {
+  display: none;
+  z-index: 10000;
+  position: absolute;
+  top: 40px;
+  left: 0px;
+  width: 460px;
+  padding: 12px;
+  background: white;
+  color: #666;
+}
+
+#mei .header .navigation .container > ul:first-of-type > li .list a:hover {
+  color: red;
+}
+
+#mei .header .navigation .container > ul:first-of-type > li .list h4 {
+  font-weight: bolder;
+  color: red;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+#mei .header .navigation .container > ul:first-of-type > li .list a {
+  color: black;
+}
+
+#mei .header .navigation .container > ul:first-of-type > li .list .left {
+  font-size: 16px;
+  display: inline-block;
+  width: 320px;
+  height: 220px;
+}
+
+#mei .header .navigation .container > ul:first-of-type > li .list .left li {
+  margin-top: 10px;
+}
+
+#mei .header .navigation .container > ul:first-of-type > li .list .right {
+  font-size: 14px;
+  text-align: center;
+  margin-left: 12px;
+  width: 98px;
+  display: inline-block;
+}
+
+#mei .header .navigation .container > ul:last-of-type {
+  position: relative;
+  margin-right: 4px;
+  float: right;
+}
+
+#mei .header .navigation .container > ul:last-of-type .buybag {
+  display: none;
+  position: absolute;
+  z-index: 10000;
+  right: 0;
+  top: 40px;
+  width: 320px;
+  box-sizing: border-box;
+  padding: 12px 4px 12px 14px;
+  background: white;
+  color: black;
+  border: 1px solid #ccc;
+}
+
+#mei .header .navigation .container > ul:last-of-type .buybag input:first-of-type {
+  width: 30px;
+  height: 30px;
+  font-size: 24px;
+  margin-left: 240px;
+  background: white;
+  color: black;
+}
+
+#mei .header .navigation .container > ul:last-of-type .buybag input:last-of-type {
+  display: block;
+  margin: 20px auto;
+  background: #db2828;
+  color: white;
+  width: 100px;
+  height: 30px;
+}
+
+#mei .header .navigation .container > ul:last-of-type .buybag #buybag {
+  margin-top: 2px;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+#mei .header .navigation .container > ul:last-of-type .buybag #buybag li {
+  box-sizing: border-box;
+  padding: 10px 10px;
+  height: 100px;
+  z-index: 10000;
+  border-bottom: 1px solid #ccc;
+}
+
+#mei .header .navigation .container > ul:last-of-type .buybag #buybag li img {
+  margin-top: 0px;
+  height: 60px;
+  width: 40px;
+}
+
+#mei .header .navigation .container > ul:last-of-type .buybag #buybag li span:hover, #mei .header .navigation .container > ul:last-of-type .buybag #buybag li input:hover {
+  color: #db2828;
+}
+
+#mei .header .navigation .container > ul:last-of-type .buybag #buybag li input {
+  width: 40px;
+  height: 20px;
+  margin-left: 180px;
+  margin-top: -20px;
+  background: white;
+  color: black;
+  font-size: 14px;
+}
+
+#mei .header .navigation .container > ul:last-of-type .buybag #buybag li:last-of-type {
+  border-bottom: none;
+}
+
+#mei .header .navigation .container > ul:last-of-type > li {
+  float: left;
+}
+
+#mei .header .navigation .container > ul:last-of-type > li a {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+}
+
+#mei .header .navigation .container > ul:last-of-type li:nth-of-type(2) span {
+  border-right: 1px solid white;
+}
+
+#mei .header .navigation .container > ul:last-of-type li:nth-of-type(3) a {
+  color: white;
+  padding-left: 10px;
+}
+
+#mei .header .navigation .container > ul:last-of-type li:nth-of-type(3) a span {
+  font-size: 14px;
+  padding-left: 2px;
+}
+
+#mei .banner {
+  min-width: 1000px;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+  height: 524px;
+}
+
+#mei .banner .box {
+  font-size: 0;
+  position: absolute;
+  width: 7200px;
+  height: 524px;
+  z-index: -100;
+}
+
+#mei .banner > img {
+  position: absolute;
+  z-index: -100;
+}
+
+#mei .banner > img:first-of-type {
+  top: 45%;
+  left: 120px;
+}
+
+#mei .banner > img:last-of-type {
+  top: 45%;
+  right: 120px;
+}
+
+#mei .banner .code {
+  z-index: 10000;
+  position: fixed;
+  width: 100px;
+  height: 260px;
+  top: 280px;
+  right: 20px;
+}
+
+#mei .banner .code p {
+  background: black;
+  height: 50px;
+  color: white;
+  line-height: 25px;
+  font-size: 14px;
+}
+
+#mei .banner .code p span {
+  color: red;
+  font-size: 14px;
+}
+
+#mei .banner .code div {
+  background: white;
+  color: black;
+  text-align: center;
+  padding: 12px 0;
+}
+
+#mei .banner .code div img {
+  width: 78px;
+  margin: 6px 0;
+}
+
+#mei .main {
+  width: 1040px;
+  padding: 18px;
+  margin: 0 auto;
+}
+
+#mei .main .container {
+  background: white;
+  padding: 20px;
+}
+
+#mei .main .container p {
+  height: 40px;
+  line-height: 40px;
+  background: #f2f2f2;
+  color: black;
+  text-indent: 12px;
+  cursor: pointer;
+}
+
+#mei .main .container p span {
+  float: right;
+  color: red;
+  font-weight: bold;
+  font-size: 18px;
+  margin-right: 12px;
+}
+
+#mei .main .container img {
+  cursor: pointer;
+}
+
+#mei .main .container .new {
+  overflow: hidden;
+}
+
+#mei .main .container .new > div {
+  width: 320px;
+  float: left;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+#mei .main .container .new > div p {
+  height: 40px;
+  line-height: 40px;
+  background: #f2f2f2;
+}
+
+#mei .main .container .new > div img {
+  height: 190px;
+  width: 320px;
+}
+
+#mei .main .container .new div:nth-of-type(3n) {
+  margin-right: 0;
+}
+
+#mei .main .container .fire {
+  overflow: hidden;
+}
+
+#mei .main .container .fire > div {
+  width: 320px;
+  float: left;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+#mei .main .container .fire > div p {
+  height: 40px;
+  background: #f2f2f2;
+}
+
+#mei .main .container .fire > div img {
+  height: 190px;
+  width: 320px;
+}
+
+#mei .main .container .fire div:nth-of-type(3n) {
+  margin-right: 0;
+}
+
+#mei .main .container .lady {
+  overflow: hidden;
+  position: relative;
+}
+
+#mei .main .container .lady > div {
+  width: 320px;
+  float: left;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+#mei .main .container .lady > div p {
+  height: 40px;
+  background: #f2f2f2;
+}
+
+#mei .main .container .lady > div img {
+  height: 190px;
+  width: 320px;
+}
+
+#mei .main .container .lady div:nth-of-type(3n) {
+  margin-right: 0;
+}
+
+#mei .main .container .lady .pic {
+  width: 320px;
+  height: 494px;
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  background: url(../img/main.jpg) 0 4px no-repeat;
+}
+
+#mei .main .container .man {
+  overflow: hidden;
+  position: relative;
+}
+
+#mei .main .container .man > div {
+  width: 320px;
+  float: left;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+#mei .main .container .man > div p {
+  height: 40px;
+  background: #f2f2f2;
+}
+
+#mei .main .container .man > div img {
+  height: 190px;
+  width: 320px;
+}
+
+#mei .main .container .man div:nth-of-type(3n) {
+  margin-right: 0;
+}
+
+#mei .main .container .man .pic {
+  width: 320px;
+  height: 494px;
+  position: absolute;
+  top: 20px;
+  left: 0px;
+  background: url(../img/main.jpg) -320px 14px no-repeat;
+}
+
+#mei .main .container .cosmetic {
+  overflow: hidden;
+  position: relative;
+}
+
+#mei .main .container .cosmetic > div {
+  width: 320px;
+  float: left;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+#mei .main .container .cosmetic > div p {
+  height: 40px;
+  background: #f2f2f2;
+}
+
+#mei .main .container .cosmetic > div img {
+  height: 190px;
+  width: 320px;
+}
+
+#mei .main .container .cosmetic div:nth-of-type(3n) {
+  margin-right: 0;
+}
+
+#mei .main .container .cosmetic .pic {
+  width: 320px;
+  height: 494px;
+  position: absolute;
+  top: 20px;
+  left: 0px;
+  background: url(../img/main.jpg) -640px 14px no-repeat;
+}
+
+#mei .main .container .home {
+  overflow: hidden;
+  position: relative;
+}
+
+#mei .main .container .home > div {
+  width: 320px;
+  float: left;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+#mei .main .container .home > div p {
+  height: 40px;
+  background: #f2f2f2;
+}
+
+#mei .main .container .home > div img {
+  height: 190px;
+  width: 320px;
+}
+
+#mei .main .container .home div:nth-of-type(3n) {
+  margin-right: 0;
+}
+
+#mei .main .container .home .pic {
+  width: 320px;
+  height: 494px;
+  position: absolute;
+  top: 20px;
+  left: 0px;
+  background: url(../img/main.jpg) -960px 14px no-repeat;
+}
+
+#mei .main .container .abroad {
+  overflow: hidden;
+  position: relative;
+}
+
+#mei .main .container .abroad > div {
+  width: 320px;
+  float: left;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+#mei .main .container .abroad > div p {
+  height: 40px;
+  background: #f2f2f2;
+}
+
+#mei .main .container .abroad > div img {
+  height: 190px;
+  width: 320px;
+}
+
+#mei .main .container .abroad div:nth-of-type(3n) {
+  margin-right: 0;
+}
+
+#mei .main .container .abroad .pic {
+  width: 320px;
+  height: 494px;
+  position: absolute;
+  top: 20px;
+  left: 0px;
+  background: url(../img/main.jpg) -1280px 14px no-repeat;
+}
+
+#mei .main .container .start {
+  margin-top: 40px;
+  height: 190px;
+  overflow: hidden;
+}
+
+#mei .main .container .start ul {
+  margin-top: 20px;
+  float: left;
+  overflow: hidden;
+}
+
+#mei .main .container .start ul li {
+  float: left;
+}
+
+#mei .main .container .start ul li a {
+  height: 30px;
+  display: block;
+  color: black;
+}
+
+#mei .main .container .start ul li a span {
+  padding: 0 30px;
+  font-size: 16px;
+  border-left: 1px solid black;
+}
+
+#mei .main .container .start ul li:last-of-type span {
+  border-right: 1px solid black;
+}
+
+#mei .main .container .start ul li .add a {
+  border-bottom: 4px solid black;
+}
+
+#mei .main .container .start .huo {
+  overflow: hidden;
+  margin-top: 40px;
+}
+
+#mei .main .container .start .huo .huodong {
+  position: relative;
+  width: 320px;
+  height: 88px;
+  background: url(../img/index/huodong1.png);
+}
+
+#mei .main .container .start .huo .huodong:hover div {
+  display: block;
+}
+
+#mei .main .container .start .huo .huodong div {
+  width: 320px;
+  height: 88px;
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+#mei .main .container .start .huo .huodong div input {
+  position: absolute;
+  cursor: pointer;
+  background: #db2828;
+  color: white;
+  top: 50%;
+  left: 50%;
+  width: 80px;
+  height: 40px;
+  margin-top: -20px;
+  margin-left: -40px;
+}
+
+#mei .bottom {
+  background: #f2f2f2;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+#mei .bottom ul:first-of-type {
+  text-align: center;
+  width: 990px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#mei .bottom ul:first-of-type li {
+  float: left;
+}
+
+#mei .bottom ul:first-of-type li a {
+  display: block;
+  width: 164px;
+  color: black;
+  border-right: 1px solid black;
+  height: 60px;
+  line-height: 30px;
+  font-size: 12px;
+}
+
+#mei .bottom ul:first-of-type li:nth-of-type(1) a {
+  background: url(../img/jingling.png) -152px -148px no-repeat;
+}
+
+#mei .bottom ul:first-of-type li:nth-of-type(1) :hover {
+  background: url(../img/jingling.png) -152px -266px no-repeat;
+}
+
+#mei .bottom ul:first-of-type li:nth-of-type(2) a {
+  background: url(../img/jingling.png) -543px -104px no-repeat;
+}
+
+#mei .bottom ul:first-of-type li:nth-of-type(2) :hover {
+  background: url(../img/jingling.png) -543px 7px no-repeat;
+}
+
+#mei .bottom ul:first-of-type li:nth-of-type(3) a {
+  background: url(../img/jingling.png) -152px -386px no-repeat;
+}
+
+#mei .bottom ul:first-of-type li:nth-of-type(3) :hover {
+  background: url(../img/jingling.png) -303px -233px no-repeat;
+}
+
+#mei .bottom ul:first-of-type li:nth-of-type(4) a {
+  background: url(../img/jingling.png) -416px 6px no-repeat;
+}
+
+#mei .bottom ul:first-of-type li:nth-of-type(4) :hover {
+  background: url(../img/jingling.png) -416px -106px no-repeat;
+}
+
+#mei .bottom ul:first-of-type li:nth-of-type(5) a {
+  background: url(../img/jingling.png) -302px -346px no-repeat;
+}
+
+#mei .bottom ul:first-of-type li:nth-of-type(5) :hover {
+  background: url(../img/jingling.png) -302px -459px no-repeat;
+}
+
+#mei .bottom ul:first-of-type li:last-of-type a {
+  background: url(../img/jingling.png) -300px -114px no-repeat;
+  border-right: none;
+}
+
+#mei .bottom ul:first-of-type li:last-of-type :hover {
+  background: url(../img/jingling.png) -300px 3px no-repeat;
+  border-right: none;
+}
+
+#mei .bottom ul:last-of-type {
+  overflow: hidden;
+  margin: 20px auto;
+  text-align: center;
+  width: 540px;
+}
+
+#mei .bottom ul:last-of-type li {
+  float: left;
+}
+
+#mei .bottom ul:last-of-type li a {
+  display: block;
+  height: 14px;
+  line-height: 14px;
+}
+
+#mei .bottom ul:last-of-type li a span {
+  padding: 0 27px;
+  color: black;
+}
+
+#mei .bottom ul:last-of-type li :last-of-type {
+  padding-right: 0;
+}
+
+#mei .bottom p {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#mei .bottom img {
+  display: block;
+  margin: 4px auto 2px;
+}

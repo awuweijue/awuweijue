@@ -1,0 +1,253 @@
+#mei{
+    .header{
+        .container{
+            overflow:hidden;
+            .pic1{
+                background: url(../img/jingling.png) 192px 300px;
+                width:192px;
+                height:90px;
+                float:left;
+            }
+            .pic2{
+                background: url(../img/jingling.png) 174px -70px;
+                width:174px;
+                height:90px;
+                float:left;
+            }
+        }
+    }
+    .banner{
+        height:800px;
+        font-family:'微软雅黑';
+        color:black;
+        min-widht:1000px;
+        background: url(../img/resgite.jpg) -280px 0px no-repeat;
+        background-size: auto 800px;
+        position:relative;
+        form{
+            position:absolute;
+            top:60px;
+            right:212px;
+            width: 350px;
+            
+            background:white;
+            padding:25px;
+            box-sizing:border-box;
+            h2{
+                text-align:center;
+            }
+            p:first-of-type{
+                margin-top:22px;
+                text-align:center;
+                span{color:red;}
+            }
+            input#phone{
+                width: 300px;
+                height: 44px;
+                margin-top:10px;
+                border:1px solid #ccc;
+                text-indent:4px;
+            }
+            p:nth-of-type(2){
+                height: 0;
+                overflow:hidden;
+                color:#db2828;
+                text-align:left;                
+            }
+            p:nth-of-type(3){
+                height: 0;
+                overflow:hidden;
+                color:#db2828;
+                text-align:left;                
+            }
+            p:nth-of-type(4){
+                height: 0;
+                overflow:hidden;
+                color:#db2828;
+                text-align:left;
+                margin-bottom:10px;                
+            }
+            input:nth-of-type(2){
+                width: 190px;
+                height: 44px;
+                margin-top:14px;
+                border:1px solid #ccc;
+                text-indent:4px;
+                margin-right:10px;
+            }
+            #v_container{
+                width:94px;
+                height:46px;
+                display:inline-block;
+                vertical-align:bottom;
+            }
+            input:nth-of-type(3){
+                width: 190px;
+                height: 44px;
+                margin-top:14px;
+                border:1px solid #ccc;
+                text-indent:4px;
+                margin-right:10px;
+            }
+            input:nth-of-type(4){
+                width: 94px;
+                height: 48px;
+                margin-top:14px;
+                border:1px solid #ccc;
+                text-indent:4px;
+                background:#db2828;
+                color:white;
+            }
+            
+            .psw{
+                position:relative;
+                margin-bottom:2px;
+                input{
+                    width: 300px;
+                    height: 44px;
+                    margin-top:14px;
+                    border:1px solid #ccc;
+                    text-indent:4px;
+                    margin-right:10px;
+                }
+                div{
+                    position:absolute;
+                    bottom:12px;
+                    right:0px;
+                    width: 40px;
+                    height: 20px;
+                    background:url(../img/see.png) no-repeat;
+                    &:hover{
+                        cursor:pointer;
+                    }
+                }
+            }   
+            span{
+                a{color:black;}
+            }       
+            input.zhuce{
+                width: 300px;
+                height: 48px;
+                font-size:16px;             
+                text-indent:4px;
+                margin-right:10px;
+                margin-top:4px;
+            }   
+            p:last-of-type{
+                text-align:right;
+                margin-top:14px;
+                a{
+                    background:url(../img/youjiantou.png) 48px no-repeat;
+                    color:red;
+                    padding-right:10px;
+                }
+                
+            }
+        }
+    }
+}
+.bottom{
+    background: #f2f2f2;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    ul:first-of-type{
+        text-align:center;
+        width: 990px;
+        margin: 0 auto;
+        overflow: hidden;
+        li{
+            float: left;
+            a{
+                display: block;
+                width: 164px;
+                color:black;
+                border-right:1px solid black;
+                height:60px;
+                line-height:30px;
+                font-size:12px;
+            }
+        }
+        li:nth-of-type(1){
+            a{
+                background: url(../img/jingling.png) -152px -148px no-repeat;
+            }
+            :hover{
+                background: url(../img/jingling.png) -152px -266px no-repeat;
+            }
+        }
+        li:nth-of-type(2){
+            a{
+                background: url(../img/jingling.png) -543px -104px no-repeat;
+            }
+            :hover{
+                background: url(../img/jingling.png) -543px 7px no-repeat;
+            }
+        }
+        li:nth-of-type(3){
+            a{
+                background: url(../img/jingling.png) -152px -386px no-repeat;
+            }
+            :hover{
+                background: url(../img/jingling.png) -303px -233px no-repeat;
+            }
+        }
+        li:nth-of-type(4){
+            a{
+                background: url(../img/jingling.png) -416px 6px no-repeat;
+            }
+            :hover{
+                background: url(../img/jingling.png) -416px -106px no-repeat;
+            }
+        }
+        li:nth-of-type(5){
+            a{
+                background: url(../img/jingling.png) -302px -346px no-repeat;
+            }
+            :hover{
+                background: url(../img/jingling.png) -302px -459px no-repeat;
+            }
+        }
+        li:last-of-type{
+            a{
+                background: url(../img/jingling.png) -300px -114px no-repeat;
+                border-right:none;
+            }
+            :hover{
+                background: url(../img/jingling.png) -300px 3px no-repeat;
+                border-right:none;
+            }
+        }
+    }
+    ul:last-of-type{
+        overflow:hidden;
+        margin:20px auto;
+        text-align:center;
+        width:540px;
+        li{
+            float:left;
+            a{
+                display:block;
+                height:14px;
+                line-height:14px;
+                span{
+                    padding: 0 27px;
+                    color:black;
+                }
+            }
+            :last-of-type{
+                padding-right:0;
+            }
+        }    
+    }
+    p{
+        margin-bottom: 20px;
+        text-align:center;
+    }
+    img{
+        display:block;
+        margin: 4px auto 2px;
+    }
+}
+    
+    
+    

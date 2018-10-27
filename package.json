@@ -1,0 +1,27 @@
+{
+  "name": "mei",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awuweijue/awuweijue.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/awuweijue/awuweijue/issues"
+  },
+  "homepage": "https://github.com/awuweijue/awuweijue#readme"
+}

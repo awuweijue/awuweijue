@@ -1,0 +1,547 @@
+@charset "UTF-8";
+#mei {
+  font-family: '微软雅黑';
+  min-width: 1000px;
+}
+
+#mei a {
+  color: black;
+}
+
+#mei h2 {
+  color: black;
+  font-size: 26px;
+  font-weight: normal;
+}
+
+#mei h3 {
+  color: black;
+  text-align: right;
+}
+
+#mei h3 span {
+  padding-right: 16px;
+  background: url(../img/youjiantou.png) no-repeat 50px;
+  height: 50px;
+  line-height: 50px;
+}
+
+#mei .header .top {
+  background: #f2f2f2;
+  color: black;
+}
+
+#mei .header .top .container {
+  overflow: hidden;
+}
+
+#mei .header .top .container > ul:first-of-type {
+  background: url(../img/zhuceyouli.gif) -2px 4px no-repeat;
+  float: left;
+}
+
+#mei .header .top .container > ul:first-of-type li:last-of-type a {
+  padding-left: 20px;
+}
+
+#mei .header .top .container > ul:first-of-type > li {
+  float: left;
+}
+
+#mei .header .top .container > ul:first-of-type > li a {
+  display: block;
+  height: 30px;
+  line-height: 30px;
+}
+
+#mei .header .top .container > ul:first-of-type > li a span {
+  border-right: 2px solid black;
+  padding: 0 20px;
+}
+
+#mei .header .top .container ul:last-of-type {
+  margin-right: 80px;
+  float: right;
+}
+
+#mei .header .top .container ul:last-of-type li:last-of-type a {
+  padding-left: 20px;
+  background: url(../img/weibo.png) 20px 2px no-repeat;
+}
+
+#mei .header .top .container ul:last-of-type li:last-of-type a span {
+  border-right: none;
+}
+
+#mei .header .top .container ul:last-of-type li {
+  float: left;
+}
+
+#mei .header .top .container ul:last-of-type li a {
+  display: block;
+  height: 30px;
+  line-height: 30px;
+}
+
+#mei .header .top .container ul:last-of-type li a span {
+  border-right: 2px solid black;
+  padding: 0 20px;
+}
+
+#mei .header .logo {
+  background: white;
+}
+
+#mei .header .logo .container {
+  height: 90px;
+  position: relative;
+}
+
+#mei .header .logo .container #search {
+  display: none;
+  position: absolute;
+  width: 350px;
+  border: 1px solid black;
+  right: 42px;
+  top: 76px;
+  z-index: 1000;
+  background: white;
+}
+
+#mei .header .logo .container #search li {
+  text-indent: 12px;
+  color: black;
+  font-size: 14px;
+  height: 37px;
+  line-height: 37px;
+}
+
+#mei .header .logo .container .pic1 {
+  background: url(../img/jingling.png) 192px 300px;
+  width: 192px;
+  height: 90px;
+  float: left;
+}
+
+#mei .header .logo .container .pic2 {
+  background: url(../img/jingling.png) 174px -70px;
+  width: 174px;
+  height: 90px;
+  float: left;
+}
+
+#mei .header .logo .container input:first-of-type {
+  border: 1px solid black;
+  margin-top: 40px;
+  margin-left: 240px;
+  float: left;
+  width: 350px;
+  height: 35px;
+  text-indent: 12px;
+}
+
+#mei .header .logo .container input:last-of-type {
+  margin-top: 40px;
+  float: left;
+  width: 37px;
+  height: 37px;
+  border: 1px solid black;
+  background: black url(../img/fangdajing.png) 2px 6px no-repeat;
+}
+
+#mei .header .navigation {
+  background: black;
+}
+
+#mei .header .navigation .container {
+  height: 40px;
+}
+
+#mei .header .navigation .container > ul:first-of-type {
+  float: left;
+}
+
+#mei .header .navigation .container > ul:first-of-type > li {
+  float: left;
+  position: relative;
+}
+
+#mei .header .navigation .container > ul:first-of-type > li:hover .list {
+  display: block;
+}
+
+#mei .header .navigation .container > ul:first-of-type > li > a {
+  display: block;
+  height: 40px;
+  width: 80px;
+  line-height: 40px;
+  color: white;
+  font-size: 14px;
+}
+
+#mei .header .navigation .container > ul:first-of-type > li > a:hover {
+  color: red;
+}
+
+#mei .header .navigation .container > ul:first-of-type > li .list {
+  display: none;
+  position: absolute;
+  border-shadow: 2px 2px 2px #ccc;
+  border: 1px solid #ccc;
+  top: 40px;
+  left: 0px;
+  width: 460px;
+  padding: 12px;
+  background: white;
+  color: #666;
+}
+
+#mei .header .navigation .container > ul:first-of-type > li .list h4 {
+  font-weight: bolder;
+  color: red;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+#mei .header .navigation .container > ul:first-of-type > li .list a {
+  color: black;
+}
+
+#mei .header .navigation .container > ul:first-of-type > li .list .left {
+  font-size: 16px;
+  display: inline-block;
+  width: 320px;
+  height: 220px;
+}
+
+#mei .header .navigation .container > ul:first-of-type > li .list .left li {
+  margin-top: 10px;
+}
+
+#mei .header .navigation .container > ul:first-of-type > li .list .right {
+  font-size: 14px;
+  text-align: center;
+  margin-left: 12px;
+  width: 98px;
+  display: inline-block;
+}
+
+#mei .header .navigation .container > ul:last-of-type {
+  margin-right: 20px;
+  float: right;
+}
+
+#mei .header .navigation .container > ul:last-of-type > li {
+  float: left;
+}
+
+#mei .header .navigation .container > ul:last-of-type > li a {
+  display: block;
+  height: 39px;
+  line-height: 39px;
+}
+
+#mei .header .navigation .container > ul:last-of-type li:nth-of-type(2) span {
+  border-right: 1px solid white;
+}
+
+#mei .header .navigation .container > ul:last-of-type li:nth-of-type(3) a {
+  color: white;
+  padding-left: 10px;
+}
+
+#mei .header .navigation .container > ul:last-of-type li:nth-of-type(3) a span {
+  font-size: 14px;
+  padding-left: 2px;
+}
+
+#mei .main .container {
+  overflow: hidden;
+}
+
+#mei .main .container h3 {
+  text-align: left;
+  color: #ccc;
+}
+
+#mei .main .container .pic {
+  float: left;
+  width: 50%;
+  height: 800px;
+  background: url(../img/goodlist/1.jpg);
+}
+
+#mei .main .container .detail {
+  float: left;
+  margin-left: 20px;
+  width: 468px;
+}
+
+#mei .main .container .detail .brand {
+  margin-top: 20px;
+  height: 34px;
+  line-height: 34px;
+  font-weight: bolder;
+  font-size: 26px;
+  color: black;
+}
+
+#mei .main .container .detail .name {
+  font-size: 20px;
+}
+
+#mei .main .container .detail .price {
+  font-size: 26px;
+  color: #db2828;
+}
+
+#mei .main .container .detail .discount {
+  font-size: 26px;
+  float: right;
+  color: #db2828;
+}
+
+#mei .main .container .detail .present {
+  margin-top: 20px;
+  background: #eee url(../img/present.png) no-repeat;
+  text-indent: 60px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  color: black;
+}
+
+#mei .main .container .detail .color {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #ccc;
+}
+
+#mei .main .container .detail .color span {
+  font-size: 16px;
+  color: black;
+}
+
+#mei .main .container .detail .smallcolor {
+  width: 60px;
+  height: 100px;
+  border: 1px solid #eee;
+  margin: 20px 0;
+}
+
+#mei .main .container .detail .size {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+#mei .main .container .detail .size span {
+  width: 80px;
+  height: 80px;
+  padding: 6px 20px;
+  background: #ccc;
+  color: black;
+}
+
+#mei .main .container .detail .size span:hover {
+  background: black;
+  color: white;
+}
+
+#mei .main .container .detail .qty {
+  margin-bottom: 30px;
+}
+
+#mei .main .container .detail .qty span {
+  padding: 6px 14px;
+  color: black;
+  font-size: 16px;
+}
+
+#mei .main .container .detail .qty .jian, #mei .main .container .detail .qty .jia {
+  background: #ccc;
+  color: black;
+}
+
+#mei .main .container .detail .qty .jian {
+  padding: 6px 16px;
+}
+
+#mei .main .container .detail .zhifa {
+  color: red;
+  font-size: 20px;
+}
+
+#mei .main .container .detail u {
+  float: right;
+}
+
+#mei .main .container .buy {
+  margin: 30px 0;
+}
+
+#mei .main .container .buy input {
+  width: 220px;
+  height: 46px;
+}
+
+#mei .main .container .buy #buycar {
+  background: #222;
+  color: white;
+  margin-right: 22px;
+}
+
+#mei .main .container .buy #buy {
+  background: #db2828;
+  color: white;
+}
+
+#mei .main .container .line {
+  border-bottom: 1px solid #ccc;
+  height: 1px;
+  overflow: hidden;
+  margin-top: 840px;
+}
+
+#mei .main .container > img:nth-of-type(5) {
+  margin-left: 20px;
+  margin-top: 40px;
+}
+
+#mei .main .container > img:nth-of-type(4) {
+  margin-left: 20px;
+  margin-top: 40px;
+}
+
+#mei .main .container > img:nth-of-type(3) {
+  margin-left: 24px;
+  margin-top: 60px;
+}
+
+#mei .main .container > img:nth-of-type(2) {
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+#mei .main .container > img:nth-of-type(1) {
+  margin-left: 26px;
+  margin-top: 40px;
+}
+
+#mei .main .container > img:last-of-type {
+  margin-top: 20px;
+  display: block;
+  margin: 20px auto;
+}
+
+#mei .bottom {
+  background: #f2f2f2;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+#mei .bottom ul:first-of-type {
+  text-align: center;
+  width: 990px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#mei .bottom ul:first-of-type li {
+  float: left;
+}
+
+#mei .bottom ul:first-of-type li a {
+  display: block;
+  width: 164px;
+  color: black;
+  border-right: 1px solid black;
+  height: 60px;
+  line-height: 30px;
+  font-size: 12px;
+}
+
+#mei .bottom ul:first-of-type li:nth-of-type(1) a {
+  background: url(../img/jingling.png) -152px -148px no-repeat;
+}
+
+#mei .bottom ul:first-of-type li:nth-of-type(1) :hover {
+  background: url(../img/jingling.png) -152px -266px no-repeat;
+}
+
+#mei .bottom ul:first-of-type li:nth-of-type(2) a {
+  background: url(../img/jingling.png) -543px -104px no-repeat;
+}
+
+#mei .bottom ul:first-of-type li:nth-of-type(2) :hover {
+  background: url(../img/jingling.png) -543px 7px no-repeat;
+}
+
+#mei .bottom ul:first-of-type li:nth-of-type(3) a {
+  background: url(../img/jingling.png) -152px -386px no-repeat;
+}
+
+#mei .bottom ul:first-of-type li:nth-of-type(3) :hover {
+  background: url(../img/jingling.png) -303px -233px no-repeat;
+}
+
+#mei .bottom ul:first-of-type li:nth-of-type(4) a {
+  background: url(../img/jingling.png) -416px 6px no-repeat;
+}
+
+#mei .bottom ul:first-of-type li:nth-of-type(4) :hover {
+  background: url(../img/jingling.png) -416px -106px no-repeat;
+}
+
+#mei .bottom ul:first-of-type li:nth-of-type(5) a {
+  background: url(../img/jingling.png) -302px -346px no-repeat;
+}
+
+#mei .bottom ul:first-of-type li:nth-of-type(5) :hover {
+  background: url(../img/jingling.png) -302px -459px no-repeat;
+}
+
+#mei .bottom ul:first-of-type li:last-of-type a {
+  background: url(../img/jingling.png) -300px -114px no-repeat;
+  border-right: none;
+}
+
+#mei .bottom ul:first-of-type li:last-of-type :hover {
+  background: url(../img/jingling.png) -300px 3px no-repeat;
+  border-right: none;
+}
+
+#mei .bottom ul:last-of-type {
+  overflow: hidden;
+  margin: 20px auto;
+  text-align: center;
+  width: 540px;
+}
+
+#mei .bottom ul:last-of-type li {
+  float: left;
+}
+
+#mei .bottom ul:last-of-type li a {
+  display: block;
+  height: 14px;
+  line-height: 14px;
+}
+
+#mei .bottom ul:last-of-type li a span {
+  padding: 0 27px;
+  color: black;
+}
+
+#mei .bottom ul:last-of-type li :last-of-type {
+  padding-right: 0;
+}
+
+#mei .bottom p {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#mei .bottom img {
+  display: block;
+  margin: 4px auto 2px;
+}
